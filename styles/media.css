@@ -1,0 +1,21 @@
+@media (max-width: 480px) {
+  .header {
+    display: none;
+  }
+
+  .home {
+    text-align: left;
+  }
+
+  .home-title {
+    max-width: 250px;
+    font-size: 32px;
+    margin: 66px 0 25px 0;
+  }
+
+  .home-description {
+    max-width: 300px;
+    font-size: 14px;
+    margin: 0 0 28px 0;
+  }
+}
