@@ -18,4 +18,21 @@
     font-size: 14px;
     margin: 0 0 28px 0;
   }
+
+  .about-subtitle-ru,
+  .about-subtitle-en {
+    max-width: 350px;
+    font-size: 14px;
+    margin: 15px auto;
+  }
+  .about-desctiption-ru,
+  .about-desctiption-en {
+    font-size: 14px;
+    max-width: 350px;
+  }
+
+  .about-divider {
+    max-width: 350px;
+    margin: 20px auto;
+  }
 }
