@@ -1,4 +1,10 @@
 :root {
+  --debug: #f804bf;
+
   --bg-main: #fff;
-  --bg-debug: #f804bf;
+  --bg-main-grey: #f6f6f6;
+
+  --color-main-black: #070707;
+
+  --font-color-grey: #544d4d;
 }
