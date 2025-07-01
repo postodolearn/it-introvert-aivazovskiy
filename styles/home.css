@@ -13,14 +13,14 @@
 }
 
 .home-description {
-  font-size: 18px;
+  font-size: var(--font-size-description-desctop);
   font-weight: 500;
   color: var(--color-main-black);
   margin: 0 0 35px 0;
 }
 
 .home-img {
-  width: 100%;
-  height: 350px;
+  max-width: min(100%, 950px);
+  max-height: min(100%, 535px);
   object-fit: cover;
 }

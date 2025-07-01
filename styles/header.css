@@ -24,7 +24,7 @@
 
 .nav-link {
   color: var(--font-color-grey);
-  font-size: 18px;
+  font-size: var(--font-size-description-desctop);
   font-weight: 700;
   position: relative;
 }

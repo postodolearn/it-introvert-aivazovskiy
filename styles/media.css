@@ -15,19 +15,24 @@
 
   .home-description {
     max-width: 300px;
-    font-size: 14px;
+    font-size: var(--font-size-description-mobile);
     margin: 0 0 28px 0;
+  }
+
+  .home-img {
+    width: 320px;
+    height: 490px;
   }
 
   .about-subtitle-ru,
   .about-subtitle-en {
     max-width: 350px;
-    font-size: 14px;
+    font-size: var(--font-size-description-mobile);
     margin: 15px auto;
   }
   .about-desctiption-ru,
   .about-desctiption-en {
-    font-size: 14px;
+    font-size: var(--font-size-description-mobile);
     max-width: 350px;
   }
 
@@ -41,12 +46,27 @@
   }
 
   .history-image {
-    max-width: min(315px, 100%);
+    max-width: 350px;
     height: 480px;
   }
 
   .history-description {
-    font-size: 14px;
+    font-size: var(--font-size-description-mobile);
     margin-top: 35px;
+  }
+
+  .portfolio-title {
+    margin-bottom: 50px;
+  }
+
+  .portfolio-image {
+    max-width: 310px;
+    max-height: 210px;
+  }
+
+  .portfolio-image-description {
+    font-size: var(--font-size-description-mobile);
+    margin: 30px 50px;
+    max-width: 300px;
   }
 }
