@@ -69,4 +69,21 @@
     margin: 30px 50px;
     max-width: 300px;
   }
+
+  .socials {
+    gap: 20px;
+  }
+
+  .contacts-button {
+    margin: 30px 0 30px;
+  }
+
+  .social-icon {
+    width: 55px;
+    height: 55px;
+  }
+
+  .contact-info {
+    font-size: var(--font-size-description-mobile);
+  }
 }

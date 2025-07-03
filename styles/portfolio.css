@@ -12,8 +12,9 @@
 }
 
 .portfolio-image {
-  max-width: min(100%, 950px);
-  max-height: min(100%, 630px);
+  width: 100%;
+  max-width: 950px;
+  height: 630px;
   object-fit: cover;
 }
 
