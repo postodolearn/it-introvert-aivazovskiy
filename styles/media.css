@@ -1,4 +1,8 @@
 @media (max-width: 480px) {
+  .mobile-navigation {
+    display: block;
+  }
+
   .header {
     display: none;
   }
